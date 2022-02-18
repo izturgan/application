@@ -1,0 +1,283 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+html{
+	
+	scroll-behavior: smooth;
+
+  font-family: 'Playfair Display', serif;
+}
+
+body{
+	min-width: 380px;
+}
+
+#home{
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar-custom .navbar-nav .nav-link{
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover{
+  color: red;
+}
+
+.navbar-custom .btn .btn-outline-success:hover,
+.navbar-custom .btn .btn-outline-success:focus,
+.navbar-custom .btn .btn-outline-success:active,{
+  color: #black;
+  background-color: black;
+  border-color: black;
+}
+
+.navbar-custom .navbar-brand{
+	color: black;
+}
+
+.navbar-custom .button-custom{
+  border-color: black;
+  color: black;
+}
+
+
+.navbar-custom .button-custom:link{
+  background-color: black;
+  border-color: black;
+  color: white;
+  box-shadow: 2px 3px red;
+}
+
+.navbar-custom .button-custom:hover{
+  background-color: black;
+  border-color: black;
+  color: white;
+  box-shadow: 2px 3px red;
+}
+
+.navbar-custom .button-custom:active{
+  background-color: red;
+  border-color: red;
+  color: white;
+  box-shadow: 5px 10px red;
+}
+
+.navbar-custom .button-custom:visited{
+  background-color: red;
+  border-color: red;
+  color: white;
+  box-shadow: 5px 10px red;
+}
+
+
+
+.navbar-custom .navbar-toggler{
+	background-color: rgb(0,0,0,0.2);
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about{
+	background-color: white;
+}
+.Elon{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+	padding: 30px;
+}
+
+p, h3{
+  font-family: 'Playfair Display', serif;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+}
+
+h3{
+	margin-bottom: 5%;
+}
+
+.alltext{
+  display: table;
+}
+
+.info-images{
+  display: table-cell;
+  width: 35%;
+  margin-left: 10%;
+  text-align: left;
+  border: 4px solid white;
+}
+
+.info-images2{
+  width: 35%;
+  float: right;
+  margin-right: 5%;
+
+  border: 4px solid white;
+}
+
+.childhood{
+  margin-top: -23%;
+  padding-left: 60%;
+}
+
+
+.childhood1{
+  padding-left: 5%;
+  font-size: 20px;
+  padding-right: 50%;
+}
+
+
+.map{
+  margin: 30px;
+  text-align: center;
+}
+
+
+.two{
+	background-image: url(wallpaper.jpg);
+	height: 1000px;
+	padding-top: 500px;
+	text-align: center;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	border: 2px solid black;
+  	color: white;
+  	width: 100%;
+  	height: 100%;
+  	overflow: hidden;
+    opacity: 0.8;
+}
+
+
+.fade {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  top: -25px;
+  background-image: linear-gradient(0deg, transparent, black 75%);
+  z-index: 1;
+  color: white;
+}
+
+.star-wars {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 800px;
+  color: white;
+  font-size: 200%;
+  font-weight: 600;
+  letter-spacing: 6px;
+  line-height: 150%;
+  perspective: 400px;
+  text-align: justify;
+}
+
+.crawl {
+  position: relative;
+  top: 99999px;
+  transform-origin: 50% 100%;
+  animation: crawl 300s linear;
+  color: white;
+}
+
+.crawl > .title {
+  font-size: 90%;
+  text-align: center;
+  color: white;
+}
+
+.crawl > .title h1 {
+  margin: 0 0 100px;
+  text-transform: uppercase;
+  color: white;
+}
+
+@keyframes crawl {
+  0% {
+    top: -100px;
+    transform: rotateX(20deg)  translateZ(0);
+  }
+  100% { 
+    top: -6000px;
+    transform: rotateX(25deg) translateZ(-2500px);
+  }
+}
+
+.videos{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	background-image: url(wall1.jpg);
+  background-size: cover;
+	padding: 70px;
+}
+
+.video{
+    border:0;
+    box-shadow: 0 0 20px white; /* Параметры тени */
+}
+
+
+
+
+.one{
+  background-image: url('bgg.jpg');
+  height: 1000px;
+  padding-top: 500px;
+  text-align: center;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    color: white;
+}
+
+#myVideo {
+
+  width: 100%;
+  height: 100%;
+}
+
+.map1{
+  width: 45%;
+  height: 850px;
+}
+
+@media (max-width: 1200px){
+  iframe{
+    height: 300px;
+
+  }
+  .childhood, .childhood1{
+    font-size: 50%;
+    
+  }
+}
+
+/*Tesla*/
+
+footer{
+	text-align: center;
+	color: white;
+	background-color: black;
+}
